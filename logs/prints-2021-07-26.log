@@ -1,0 +1,8 @@
+13:52:37.619 [main] DEBUG TestCases.ValidateTitle - assert result
+13:57:00.763 [main] INFO  TestCases.HomePage - logged in
+13:57:09.707 [main] INFO  TestCases.HomePage - logged in
+13:57:17.325 [main] INFO  TestCases.HomePage - logged in
+13:57:20.493 [main] INFO  TestCases.ValidateTitle - initializing browser
+13:57:28.689 [main] DEBUG TestCases.ValidateTitle - hitting URL
+13:57:28.953 [main] DEBUG TestCases.ValidateTitle - assert result
+14:11:18.840 [main] INFO  TestCases.HomePage - logged in

@@ -1,0 +1,5 @@
+14:11:25.948 [main] INFO  TestCases.HomePage - logged in
+14:11:32.410 [main] INFO  TestCases.HomePage - logged in
+14:11:35.553 [main] INFO  TestCases.ValidateTitle - initializing browser
+14:11:42.321 [main] DEBUG TestCases.ValidateTitle - hitting URL
+14:11:42.436 [main] DEBUG TestCases.ValidateTitle - assert result

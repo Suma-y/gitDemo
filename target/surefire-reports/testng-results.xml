@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70434" started-at="2021-07-26T14:10:32 IST" finished-at="2021-07-26T14:11:42 IST">
+    <groups>
+    </groups>
+    <test name="Navigation" duration-ms="33522" started-at="2021-07-26T14:10:32 IST" finished-at="2021-07-26T14:11:05 IST">
+      <class name="TestCases.ValidateNavigationBar">
+        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:TestCases.ValidateNavigationBar@290222c1]" name="initiateBrowser" is-config="true" duration-ms="16926" started-at="2021-07-26T14:10:32 IST" finished-at="2021-07-26T14:10:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="FAIL" signature="ValidateNavigationBartitle()[pri:0, instance:TestCases.ValidateNavigationBar@290222c1]" name="ValidateNavigationBartitle" duration-ms="13229" started-at="2021-07-26T14:10:49 IST" finished-at="2021-07-26T14:11:02 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestCases.ValidateNavigationBar.ValidateNavigationBartitle(ValidateNavigationBar.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNavigationBartitle -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:TestCases.ValidateNavigationBar@290222c1]" name="Teardown" is-config="true" duration-ms="2164" started-at="2021-07-26T14:11:03 IST" finished-at="2021-07-26T14:11:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- TestCases.ValidateNavigationBar -->
+    </test> <!-- Navigation -->
+    <test name="HomePage" duration-ms="24686" started-at="2021-07-26T14:11:07 IST" finished-at="2021-07-26T14:11:32 IST">
+      <class name="TestCases.HomePage">
+        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:TestCases.HomePage@130c12b7]" name="initiateBrowser" is-config="true" duration-ms="2329" started-at="2021-07-26T14:11:07 IST" finished-at="2021-07-26T14:11:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="BasePageNav(java.lang.String,java.lang.String)[pri:0, instance:TestCases.HomePage@130c12b7]" name="BasePageNav" duration-ms="8662" started-at="2021-07-26T14:11:10 IST" data-provider="getData" finished-at="2021-07-26T14:11:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aablcd133]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNav -->
+        <test-method status="PASS" signature="BasePageNav(java.lang.String,java.lang.String)[pri:0, instance:TestCases.HomePage@130c12b7]" name="BasePageNav" duration-ms="7099" started-at="2021-07-26T14:11:18 IST" data-provider="getData" finished-at="2021-07-26T14:11:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@abc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aablcd133]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNav -->
+        <test-method status="PASS" signature="BasePageNav(java.lang.String,java.lang.String)[pri:0, instance:TestCases.HomePage@130c12b7]" name="BasePageNav" duration-ms="6448" started-at="2021-07-26T14:11:25 IST" data-provider="getData" finished-at="2021-07-26T14:11:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aablcd133]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNav -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:TestCases.HomePage@130c12b7]" name="Teardown" is-config="true" duration-ms="125" started-at="2021-07-26T14:11:32 IST" finished-at="2021-07-26T14:11:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- TestCases.HomePage -->
+    </test> <!-- HomePage -->
+    <test name="ValidateTitle" duration-ms="9967" started-at="2021-07-26T14:11:32 IST" finished-at="2021-07-26T14:11:42 IST">
+      <class name="TestCases.ValidateTitle">
+        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:TestCases.ValidateTitle@70e9c95d]" name="initiateBrowser" is-config="true" duration-ms="9691" started-at="2021-07-26T14:11:32 IST" finished-at="2021-07-26T14:11:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="ValidateTitle1()[pri:0, instance:TestCases.ValidateTitle@70e9c95d]" name="ValidateTitle1" duration-ms="114" started-at="2021-07-26T14:11:42 IST" finished-at="2021-07-26T14:11:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle1 -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:TestCases.ValidateTitle@70e9c95d]" name="Teardown" is-config="true" duration-ms="160" started-at="2021-07-26T14:11:42 IST" finished-at="2021-07-26T14:11:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- TestCases.ValidateTitle -->
+    </test> <!-- ValidateTitle -->
+  </suite> <!-- Suite -->
+</testng-results>
